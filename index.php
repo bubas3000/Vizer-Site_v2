@@ -66,7 +66,7 @@ Fixed Navigation
     <!-- main nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <!-- logo -->
-      <a class="navbar-brand logo" href="vizer.pt">
+      <a class="navbar-brand logo" href="">
         <img class="logo-default" src="images/teste_logo-removebg-preview.png" alt="logo" height=35 px/>
         <img class="logo-white" src="images/teste-removebg-preview (Custom).png" alt="logo" height=35px/>
       </a>
