@@ -78,9 +78,9 @@ Fixed Navigation
 
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item ">
+          <!--<li class="nav-item ">
               <a class="nav-link" href="vizer.pt">Homepage</a>
-          </li>
+          </li>-->
           <li class="nav-item ">
             <a class="nav-link" href="portfolio.html">Projetos</a>
           </li>
