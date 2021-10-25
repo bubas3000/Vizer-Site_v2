@@ -165,7 +165,7 @@ End Fixed Navigation
 				
 			<!-- Contact Form -->
 			<div class="contact-form col-md-6 " >
-				<form action="https://sheetdb.io/api/v1/dasjs4wqn26re" onsubmit="setTimeout(function(){window.location.reload();},10);" method="POST" id="sheetdb-form">
+				<form action="https://sheetdb.io/api/v1/dasjs4wqn26re" method="POST" id="sheetdb-form">
 					<div class="form-group">
 						<input type="text" placeholder="Nome" class="form-control" name="data[name]" id="name">
 					</div>
@@ -205,7 +205,7 @@ End Fixed Navigation
         response => response.json()
     ).then((html) => {
       // you can put any JS code here
-      alert('Obrigado pelo seu contacto!')
+      if(!alert('Obrigado pelo seu contacto!'))){window.location.reload();
     });
   });
 </script>
