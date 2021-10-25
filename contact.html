@@ -195,10 +195,14 @@ End Fixed Navigation
 					
 				</form>-->
 				<form action="https://sheetdb.io/api/v1/dasjs4wqn26re" method="POST" id="sheetdb-form">
-  Name: <input name="data[name]">
-  Email: <input name="data[email]">
-  <button type="submit">Submit</button>
-</form>
+					<div class="form-group">
+						<input type="text" placeholder="Nome" class="form-control" id="name" name="data[name]">	
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Nome" class="form-control" id="name" name="data[email]">	
+					</div>
+  					<button type="submit">Submit</button>
+					</form>
 
 <script>
   var form = document.getElementById('sheetdb-form');
