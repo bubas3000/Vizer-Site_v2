@@ -165,7 +165,7 @@ End Fixed Navigation
 				
 			<!-- Contact Form -->
 			<div class="contact-form col-md-6 " >
-				<form  action="https://sheetdb.io/api/v1/dasjs4wqn26re" id="contact-form" method="POST" role="form">
+				<!--<form  action="https://sheetdb.io/api/v1/dasjs4wqn26re" id="contact-form" method="POST" role="form">
 					<div class="form-group">
 						<input type="text" placeholder="Nome" class="form-control" name="data[Nome]" id="name">
 					</div>
@@ -193,7 +193,28 @@ End Fixed Navigation
 						<input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
 					</div>						
 					
-				</form>
+				</form>-->
+				<form action="https://sheetdb.io/api/v1/dasjs4wqn26re" method="POST" id="sheetdb-form">
+  Name: <input name="data[name]">
+  Email: <input name="data[email]">
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  var form = document.getElementById('sheetdb-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("sheetdb-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+      // you can put any JS code here
+      alert('success')
+    });
+  });
+</script>
 			</div>
 			<!-- ./End Contact Form -->
 		
