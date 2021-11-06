@@ -123,7 +123,7 @@ End Fixed Navigation
 			</div>
 		</div>
 	</div>
-	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/DJI_508.png);">
+	<div class="slider-item th-fullpage hero-area" style="background-image: url(images/DJI_0588.png);">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
