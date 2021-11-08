@@ -158,9 +158,7 @@ End Fixed Navigation
 		</div>
 	</div>
 	<div class="slider-item th-fullpage hero-area">
-    <video autoplay muted loop id="myVideo">
-      <source src="images/VideoPromo.mp4" type="video/mp4">
-    </video>
+		<video autoplay muted loop id="myVideo" data-desktop-vid="images/VideoPromo.mp4" data-mobile-vid="images/ezgif.com-gif-maker.mp4"></video>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
